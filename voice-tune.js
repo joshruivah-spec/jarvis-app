@@ -58,7 +58,7 @@
     ".vt-row span{color:var(--vt-ink);margin-left:6px}",
     ".vt-sel{display:block;width:100%;margin-top:12px;padding:8px;border-radius:10px;background:#050d20;color:var(--vt-ink);border:1px solid var(--vt-line);font-size:12px}",
     ".vt-test{margin-top:12px;width:100%}",
-    "@media(max-width:600px){.vt-box{top:auto;bottom:12px;right:12px;display:flex;flex-direction:column-reverse;align-items:flex-end}.vt-panel{margin:0 0 8px}}"
+    "@media(max-width:600px){.vt-box{top:auto;bottom:12px;right:12px;display:flex;flex-direction:column-reverse;align-items:flex-end}.vt-panel{margin:0 0 8px}.stage{padding-bottom:64px!important}}"
   ].join("\n");
   function injectCss() { var st = document.createElement("style"); st.textContent = CSS; (document.head || document.documentElement).appendChild(st); }
   injectCss();
